@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blackhorse Publishing</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav id="navigation">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <span class="logo-text">Blackhorse</span>
+        <span class="logo-icon">♛</span>
+      </a>
+
+      <div class="nav-links">
+        <a href="index.html" class="nav-link">HOME</a>
+        
+        <div class="nav-dropdown">
+          <button class="nav-link projects-dropdown" id="projectsDropdown">
+            PROJECTS
+            <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+          <div class="dropdown-menu" id="dropdownMenu">
+            <a href="defense.html">Blackhorse Defense Systems</a>
+            <a href="publishing.html">Blackhorse Publishing</a>
+            <a href="white-paper.html">White Paper</a>
+            <a href="institutional-white-paper.html">Institutional White Paper</a>
+          </div>
+        </div>
+
+        <a href="mailto:contact@blackhorsepublishing.net" class="nav-link">INQUIRE</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Publishing Page -->
+  <div class="page active">
+    <div class="page-content">
+      <div class="back-link-container">
+        <a href="index.html" class="back-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+          </svg>
+          BACK TO BLACKHORSE
+        </a>
+      </div>
+
+      <section class="hero-section">
+        <h1 class="page-title">Blackhorse Publishing</h1>
+        <p class="page-subtitle">Independent research and publishing. We produce original analysis on markets, systems, and signal for institutional and sophisticated individual readers.</p>
+      </section>
+
+      <section class="content-section">
+        <h2 class="section-title">Publication Types</h2>
+        <div class="grid-3">
+          <div class="card">
+            <svg class="card-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+            </svg>
+            <h3 class="card-title">Research Reports</h3>
+            <p class="card-description">In-depth market research and economic analysis for institutional audiences.</p>
+          </div>
+          <div class="card">
+            <svg class="card-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+              <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+              <path d="M2 2l7.586 7.586"></path>
+              <circle cx="11" cy="11" r="2"></circle>
+            </svg>
+            <h3 class="card-title">Editorial Essays</h3>
+            <p class="card-description">Long-form thought pieces on markets, systems, and strategic frameworks.</p>
+          </div>
+          <div class="card">
+            <svg class="card-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="16" y1="13" x2="8" y2="13"></line>
+              <line x1="16" y1="17" x2="8" y2="17"></line>
+              <polyline points="10 9 9 9 8 9"></polyline>
+            </svg>
+            <h3 class="card-title">White Papers</h3>
+            <p class="card-description">Foundational research documents and technical analysis.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section">
+        <h2 class="section-title">Research Focus</h2>
+        <div class="list-items">
+          <div class="list-item">Macroeconomic Analysis & Forecasting</div>
+          <div class="list-item">Currency Markets & Foreign Exchange</div>
+          <div class="list-item">Geopolitical Risk & Strategic Intelligence</div>
+          <div class="list-item">Financial Systems & Market Structure</div>
+          <div class="list-item">Language, Narrative & Information Flow</div>
+        </div>
+      </section>
+
+      <section class="philosophy-section">
+        <p class="philosophy-quote">"We publish what we believe to be true. We own our analysis. We answer to readers, not advertisers or platforms."</p>
+      </section>
+
+      <section class="cta-section">
+        <p class="cta-text">For editorial inquiries, research partnerships, or subscription information.</p>
+        <a href="mailto:contact@blackhorsepublishing.net" class="btn btn-primary">Contact Publishing</a>
+      </section>
+
+      <footer class="page-footer">
+        <p>Blackhorse Publishing © 2026</p>
+        <a href="mailto:contact@blackhorsepublishing.net">contact@blackhorsepublishing.net</a>
+      </footer>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
