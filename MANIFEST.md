@@ -1,6 +1,6 @@
-# 📦 Complete File Manifest - Blackhorse Publishing v2.0
+# 📦 Complete File Manifest - Blackhorse Publishing v2.1
 
-**Release:** Version 2.0 Official  
+**Release:** Version 2.1 Official  
 **Date:** February 19, 2026  
 **Total Files:** 13 (7 required for deployment + 6 documentation)
 

@@ -1,5 +1,23 @@
 # Blackhorse Publishing - Version History
 
+## Version 2.1 Official
+**Release Date:** February 19, 2026
+
+### 🎯 Updates
+
+#### Substack Integration
+- Added "Visit Substack" button on publishing.html page
+- Links to https://substack.com/@vicarofdrip
+- Positioned next to "Contact Publishing" CTA
+- Opens in new tab with security attributes
+- Consistent design with existing button styles
+
+### 📁 File Changes
+- Updated: publishing.html
+- Updated: /src/app/App.tsx (React version)
+
+---
+
 ## Version 2.0 Official
 **Release Date:** February 19, 2026
 
@@ -82,6 +100,6 @@ All contact points route to: **contact@blackhorsepublishing.net**
 
 ---
 
-**Current Version:** 2.0 Official  
+**Current Version:** 2.1 Official  
 **Maintained by:** Blackhorse  
 **Last Updated:** February 19, 2026

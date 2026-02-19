@@ -1,6 +1,6 @@
 # ⚡ QUICKSTART - Deploy in 5 Minutes
 
-**Blackhorse Publishing v2.0 Official**
+**Blackhorse Publishing v2.1 Official**
 
 ---
 

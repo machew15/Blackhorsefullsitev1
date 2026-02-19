@@ -1,6 +1,6 @@
 # Blackhorse Publishing - Static Website
 
-**Version 2.0 Official** - Multi-page static site architecture
+**Version 2.1 Official** - Multi-page static site architecture
 
 A fully static multi-page website for blackhorsepublishing.net with no build tools, frameworks, or dependencies.
 

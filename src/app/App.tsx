@@ -6,6 +6,25 @@ export default function App() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   useEffect(() => {
+    // Update page title and favicon based on current page
+    const titles: Record<string, string> = {
+      home: 'Blackhorse ♛',
+      defense: 'Defense Systems | Blackhorse',
+      publishing: 'Publishing | Blackhorse',
+      whitepaper: 'White Paper | Blackhorse',
+      institutional: 'Institutional White Paper | Blackhorse'
+    };
+    
+    document.title = titles[currentPage] || 'Blackhorse ♛';
+    
+    // Set favicon
+    const favicon = document.querySelector("link[rel*='icon']") as HTMLLinkElement || document.createElement('link');
+    favicon.rel = 'icon';
+    favicon.href = "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🐴</text></svg>";
+    if (!document.querySelector("link[rel*='icon']")) {
+      document.head.appendChild(favicon);
+    }
+
     // Close dropdown when clicking outside
     const handleClickOutside = (e: MouseEvent) => {
       const target = e.target as HTMLElement;
@@ -16,7 +35,7 @@ export default function App() {
 
     document.addEventListener('click', handleClickOutside);
     return () => document.removeEventListener('click', handleClickOutside);
-  }, []);
+  }, [currentPage]);
 
   useEffect(() => {
     // Scroll to top when page changes

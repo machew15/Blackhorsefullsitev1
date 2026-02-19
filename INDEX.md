@@ -1,4 +1,4 @@
-# 📑 Documentation Index - Blackhorse Publishing v2.0
+# 📑 Documentation Index - Blackhorse Publishing v2.1
 
 **Your complete guide to the Blackhorse Publishing website.**
 
@@ -35,7 +35,7 @@
 ### Release Information
 | File | Purpose | Read Time |
 |------|---------|-----------|
-| **[RELEASE-NOTES-v2.0.md](RELEASE-NOTES-v2.0.md)** | What's new in v2.0 | 8 min |
+| **[RELEASE-NOTES-v2.1.md](RELEASE-NOTES-v2.1.md)** | What's new in v2.1 | 8 min |
 | **[ATTRIBUTIONS.md](ATTRIBUTIONS.md)** | Credits & licenses | 2 min |
 
 ---
@@ -52,7 +52,7 @@
 
 ### "I want to see what changed"
 → **[VERSION.md](VERSION.md)** - Version history  
-→ **[RELEASE-NOTES-v2.0.md](RELEASE-NOTES-v2.0.md)** - v2.0 changes
+→ **[RELEASE-NOTES-v2.1.md](RELEASE-NOTES-v2.1.md)** - v2.1 changes
 
 ### "I want to know what files to upload"
 → **[QUICKSTART.md](QUICKSTART.md)** - Lists the 7 required files  
@@ -103,7 +103,7 @@ https://blackhorsepublishing.net/institutional-white-paper.html
 
 ## 🔄 Version Information
 
-**Current Version:** 2.0 Official  
+**Current Version:** 2.1 Official  
 **Release Date:** February 19, 2026  
 **Architecture:** Multi-page static HTML  
 **Build Step:** None  
@@ -163,7 +163,7 @@ Before deploying:
 1. README.md - Project overview
 2. MANIFEST.md - Complete inventory
 3. FILES.md - Dependencies
-4. RELEASE-NOTES-v2.0.md - Technical changes
+4. RELEASE-NOTES-v2.1.md - Technical changes
 
 ---
 
@@ -177,6 +177,6 @@ Before deploying:
 
 ---
 
-**Welcome to Blackhorse Publishing v2.0 Official! 🎉**
+**Welcome to Blackhorse Publishing v2.1 Official! 🎉**
 
 *Last updated: February 19, 2026*
